@@ -1,0 +1,50 @@
+#corpin{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 12%;
+}
+
+.perfil{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    filter: brightness(1.2);
+}
+
+.plus{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    filter: brightness(1.2);
+}
+
+.plus:hover, .perfil:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.plus:active, .perfil:active{
+    opacity: 0.1;
+    transition: 0s;
+}
+
+#perfis{
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+#perfis:nth-child(3):hover{
+    opacity: 0.5;
+}
+
+#perfis > div > p{
+    font-size: 35px;
+    margin-top: 30px;
+}

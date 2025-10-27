@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    height: 47.5vw;
+    background-color: black;
+}
+
+#corpo{
+    background-image: url('../img/fundo/estrelado\ \(2\).jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column; /* empilha header, main e footer */
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#corpo > #menu {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    align-items: center;
+}
+
+#corpo > #menu > img {
+    width: 160px;
+    margin-top: -90px;
+}
+
+h1 {
+    color: rgb(122, 4, 4);
+    margin-top: -10px;
+}
+
+button {
+    width: 400px;
+    background-color: rgb(122, 4, 4);
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
